@@ -1,0 +1,7 @@
+---
+- name: CIS Ubuntu 24 Audit
+  hosts: all
+  become: true
+
+  roles:
+    - ansible-lockdown.ubuntu24_cis_audit
