@@ -1,0 +1,5 @@
+roles:
+  - name: ansible-lockdown.ubuntu24_cis_audit
+    src: https://github.com/ansible-lockdown/UBUNTU24-CIS-Audit
+    scm: git
+    version: latest
